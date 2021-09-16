@@ -11,7 +11,7 @@ $mail->isSMTP();
 $mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               
 $mail->Username = 'dimas.site@mail.ru';
-$mail->Password = 'az89805486002';
+$mail->Password = 'C6znbGL3DaaeAxEX4TSD';
 $mail->SMTPSecure = 'ssl';                            
 $mail->Port = 25;
 
