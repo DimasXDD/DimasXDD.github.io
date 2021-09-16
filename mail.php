@@ -13,7 +13,7 @@ $mail->SMTPAuth = true;
 $mail->Username = 'dimas.site@mail.ru';
 $mail->Password = 'C6znbGL3DaaeAxEX4TSD';
 $mail->SMTPSecure = 'ssl';                            
-$mail->Port = 25;
+$mail->Port = 465;
 
 $mail->setFrom('dimas.site@mail.ru'); 
 $mail->addAddress('dmithry.sidnev.98@mail.ru');     
