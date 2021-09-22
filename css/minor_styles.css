@@ -1,7 +1,5 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /*background-color: #383838; хекс цвет нужный для найт-мода*/
-    /*color: #FFFFFF; хекс цвет для текста для найт-мода*/
+    font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bg-circle{
@@ -18,3 +16,20 @@ body{
 .who_im_title{
     font-size: 200px;
 }
+
+.ya-anim{
+    animation: ya_rotation;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+.thx-mail-txt{
+}
+
+@keyframes ya_rotation{
+    100%{transform: rotateZ(5deg);}
+}
+
