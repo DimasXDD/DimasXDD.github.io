@@ -22,7 +22,7 @@
 	$mail->Body = "<h1>$name</h1></br><p>$text</p>";
 	$mail->addAddress('dmithry.sidnev.98@mail.ru');
 	if ( $mail->send() ) {
-		echo "Сообщение отправлено!";
+		header('location: thx_mail.html');
 	}else{
 		echo "Ошибка: "{$mail->ErrorInfo};
 	}
