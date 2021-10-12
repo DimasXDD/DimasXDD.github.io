@@ -1,5 +1,5 @@
 body{
-    font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Comic Sans MS;
 }
 
 .bg-circle{
@@ -29,8 +29,3 @@ body{
 @keyframes ya_rotation{
     100%{transform: rotateZ(5deg);}
 }
-
-.mxtreme{
-    margin-top: 200%;
-}
-
